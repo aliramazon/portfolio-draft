@@ -5,11 +5,16 @@
 	font-family: 'Open Sans';
 	src: url(fonts/OpenSans-Regular.ttf);
 }*/
-
+html {
+	overflow-x:hidden;
+	-webkit-font-smoothing:antialiased;
+}
 * {
 	padding: 0px;
 	margin: 0px;
 }
+/*======== General Used ======== */
+
 
 a {
 	text-decoration: none;
@@ -22,21 +27,27 @@ section {
 	margin: 80px 0;
 	text-align: center;
 }
-/*======== Navigation Top ======== */
+
+ul {
+	list-style: none;
+}
+
 
 h1, h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
-		font-size: 28px;
+		font-size: 32px;
 }
 
 h2 {
-	font-size: 26px;
-	color: #c0392b;
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: #34495e;
+	margin-bottom: 40px;
 }
-
+/*======== Navigation Top ======== */
 .logo-nav-wrap {
 	width: 1100px;
 	margin: auto;
@@ -56,9 +67,7 @@ h2 {
 	display: inline-block;
 }
 
-.nav-top ul {
-	list-style: none;
-}
+
 
 .nav-top ul li {
 	display: inline;
@@ -69,7 +78,7 @@ h2 {
 
 .nav-top ul a {
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #c0392b;
 	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.2s;
@@ -78,16 +87,17 @@ h2 {
 .nav-top ul a:hover {
 	border-bottom: 2px solid #c0392b;
 	padding-bottom: 5px;
+	width: 35%;
 }
 
 /*======== Hero Banner ======== */
 .banner-hero {
-	background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/hero.jpg);
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/hero.jpg);
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/hero1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/hero1.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 .box-hero {
@@ -121,8 +131,14 @@ h2 {
 	margin-bottom: 25px;
 	letter-spacing: 1px;
 	line-height: 40px;
+	font-family: 'Lato', sans-serif;
 }
 
+.author-text .name {
+	font-family: 'Audiowide', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+}
 
 .author-text a {
 	color: #fff;
@@ -147,7 +163,16 @@ h2 {
 
 /*======== Skills ======== */
 
-.logos {
+.skills {
 	width: 900px;
 	margin: auto;
+}
+
+.skills li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.skills i {
+	font-size: 100px;
 }
