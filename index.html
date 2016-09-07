@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Portfolio | Ali Ramazon</title>
+		<title>Ali Ramazon | Fullstack engineer</title>
 		<meta name="description" content="I am Ali Ramazon, Fullstack web developer! Ruby, JavaScript, Python">
 		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Audiowide|Poppins" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -23,7 +23,7 @@
 							<li><a href="#skills-section">About</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
 							<li><a href="#">Blog</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 
@@ -93,7 +93,7 @@
 				<figure class="project-img">
 					<a href="http://airlive.heroku.com"><img src="images/airlive-home.jpg" alt="Airlive project"></a>
 				</figure>
-				<div class="project-info">
+				<detail class="project-info">
 					<h3>Inpired by Airbnb</h3>
 					<ul>
 						<li>Sign up</li>
@@ -103,24 +103,69 @@
 						<li>Paypal payment</li>
 						<li>Messaging between host and guest</li>
 						<li>Reviews</li>
-						<li>Rail, Jquery, AWS, SendGrid,Bootstrap </li>
+						<li>Rails, Jquery, AWS, SendGrid,Bootstrap </li>
 					</ul>
-				</div>
-				<div class="project-info">
+				</detail>
+				<detail class="project-info">
 					<h3>Mini Twitter</h3>
 					<ul>
 						<li>Create a profile</li>
 						<li>Tweet with images</li>
 						<li>Follow each other</li>
 						<li>Mobile friendly</li>
-						<li>Rail, Jquery,Ajax, AWS, SendGrid,Bootstrap </li>
+						<li>Rails, Jquery,Ajax, AWS, SendGrid,Bootstrap </li>
 					</ul>
-				</div>
+				</detail>
 				<figure class="project-img">
 					<a href="http://youpost.heroku.com"><img src="images/youpost.jpg" alt="Airlive project"></a>
 				</figure>
-			<hr />
+				<figure class="project-img">
+					<a href="http://greenpin.heroku.com"><img src="images/greenpin.jpg" alt="Airlive project"></a>
+				</figure>
+				<detail class="project-info">
+					<h3>Pinterest goes green</h3>
+					<ul>
+						<li>Authentication through Devise gem</li>
+						<li>Upload images with description</li>
+						<li>Simple CRUD operations</li>
+						<li>Admin dashboard with RailsAdmin gem</li>
+						<li>Rails, Jquery, AWS,Bootstrap,Rails Admin </li>
+					</ul>
+				</detail>
 			</div>
 		</section>
+		<section id="contact">
+			<h2>Please,Drop a line</h2>
+				<div class="contact-wrap">
+					<form action="#">
+						<div class="name-email">
+							<input type="text" name="name" placeholder="Your name">
+						</div>
+						<div class="name-email">
+							<input type="email" name="email" placeholder="Email address*" required="true">
+						</div>
+						<div class="subject-message">
+							<input type="text" name="subject" placeholder="Subject">
+						</div>
+						<div class="subject-message">
+							<textarea name="message" rows="8" cols="40" placeholder="Message*" required="true"></textarea>
+						</div>
+						<div class="submit-btn">
+							<input type="submit" name="submit" value="Send message">
+						</div>
+					</form>
+				</div>
+		</section>
+		<footer>
+			<div class="footer-logo">
+				<a href="#">Ali Ramazon</a>
+			</div>
+
+			<ul class="socials">
+				<li><a href="http://github.com/safarali"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				<li><a href="http://twitter.com/safarnov"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="http://linkedin.com/safarali"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</div>
+		</footer>
 	</body>
 </html>
