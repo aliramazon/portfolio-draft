@@ -112,8 +112,8 @@ header {
 
 /*======== Hero Banner ======== */
 header{
-	background-image: -webkit-linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/hero1.jpg);
-	background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(images/hero1.jpg);
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(images/hero.jpg);
+	background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -234,7 +234,7 @@ cite {
 
 /*======== Portfolio ======== */
 #portfolio{
-	background-color: #ecf0f1;
+	background-color:#F1F1F1;
 	padding-bottom: 0px;
 }
 .portfolio-wrap {
@@ -374,11 +374,10 @@ footer {
 
 .socials li {
 	display: inline-block;
-	margin: 15px
+	margin: 15px;
 }
 
 .socials a {
 	font-size: 20px;
 	color: #fff;
-;
 }
